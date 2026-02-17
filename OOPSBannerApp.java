@@ -1,9 +1,15 @@
-public class OOPSBannerApp {
-    public static void main(String[]args)
+import java.util.*;
+class OOPSBannerApp
+{
+    public static void main(String[] args)
     {
-System.out.println("OOPS");
-
-
-
+        Scanner sc=new Scanner(System.in);
+        System.out.println(" ***** "+" "+" ***** "+" "+"****** "+" "+" ***** ");
+        System.out.println("*     *"+" "+"*     *"+" "+"*     *"+" "+"*     *");
+        System.out.println("*     *"+" "+"*     *"+" "+"*     *"+" "+"*      ");
+        System.out.println("*     *"+" "+"*     *"+" "+"****** "+" "+" ***** ");
+        System.out.println("*     *"+" "+"*     *"+" "+"*      "+" "+"      *");
+        System.out.println("*     *"+" "+"*     *"+" "+"*      "+" "+"      *");
+        System.out.println(" ***** "+" "+" ***** "+" "+"*      "+" "+"****** ");
     }
 }
